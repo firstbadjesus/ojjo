@@ -1,0 +1,240 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: 1px solid red;  
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Khula', sans-serif;
+   font-family: 'Noto Serif', serif;
+   height: 100vw;
+
+}
+
+a {
+   text-decoration: none;
+   color:snow;
+}
+
+li {
+   list-style: none;
+}
+
+/* buttons*/
+.btn-default-1 {
+   padding: 15px 35px;
+   background: #333333;
+   border: 1px solid #FFFFFF;
+   color: #FFFFFF;
+   text-transform: uppercase;
+   margin-bottom: 80px;
+   }
+
+   .white-btn {
+      padding: 15px 35px;
+      text-transform: uppercase;
+      margin-bottom: 100px;
+   }
+
+/*END buttons*/
+/* конец общих стилей */
+
+
+
+
+
+.container{
+   max-width: 1110px;
+   width: 100%;
+   margin: 0 auto;
+   position: relative;
+   }
+
+
+
+/* header */
+.header {
+margin-top: 25px;
+background-color: transparent;
+} 
+
+.header__nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header__list {
+
+}
+.header__item {
+}
+.header__link {
+}
+.logo {
+}
+.lupa {
+}
+
+/* END header */
+
+/* firstscreen */
+
+body .firstsection__bg {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+z-index: -1;
+} 
+
+.firstscreen {
+
+}  
+
+.firstscreen__content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   overflow: hidden;
+}
+
+.description {
+   display: flex;
+   flex-direction: column;
+   height: calc(100vh - 196px);
+   justify-content: flex-end;
+}
+
+.title {
+font-family: Noto Serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-bottom: 50px;
+}
+
+.btn-default-1 {
+padding: 15px 35px;
+background: #333333;
+border: 1px solid #FFFFFF;
+color: #FFFFFF;
+text-transform: uppercase;
+margin-bottom: 80px;
+}
+.whiterow {
+   border: 1px solid white;
+   width: 100%;
+   margin-bottom: 30px;
+}
+.ourbrands {
+   display: flex;
+}
+
+.ourbrands__item img {
+width: 100%;
+}
+.ourbrands__item {
+   padding: 15px;
+}
+/* END firstscreen */
+/* secondscreen */
+
+.secondscreen {
+   background: #F9F9F9;
+}
+.container {
+}
+.top__title {
+   padding-top: 100px;
+   text-align: center;
+   font-family: 'Khula', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 21px;
+   line-height: 140%;
+   color: #333333;
+}
+.midletitle {
+   text-align: center;
+   padding-top: 15px;
+   font-family: Noto Serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 41px;
+   color: #333333;
+   margin-bottom: 60px;
+   
+}
+.secondscreen__top {
+   
+}
+.catalog__top-item {
+
+}
+.cataloglist {
+   display: flex;
+   justify-content: space-between;
+}
+
+.cataloglist__item {
+padding: 17px 33px ;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+border: 1px solid #D6D6D6;
+}
+
+.cataloglist__item a {
+   color: #333333;
+}
+.secondscreen__bottom {
+}
+
+.secondscreen__bottom-items {
+   margin-top: 55px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 30px;
+}
+
+/* END secondscreen */
+/* 3 screen */
+.oursalons {
+margin-top: 100px;
+background: url(../img/galery/screen3.png) no-repeat center;
+color: white;
+text-align: center;
+}
+
+.title__oursalons {
+   padding-top: 100px;
+   font-family: 'Khula', sans-serif;
+}
+
+.title {
+padding-bottom: 45px;
+}
+
+.text {
+   margin-bottom: 60px;
+   font-family: 'Khula', sans-serif;
+}
+
+/* END 3 screen */
+/* 4 screen */
+
+/* END 4 screen */
