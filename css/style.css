@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   outline: 1px solid red;  
+   /* outline: 1px solid red;   */
 }
 
 body {
@@ -41,10 +41,6 @@ li {
 
 /*END buttons*/
 /* конец общих стилей */
-
-
-
-
 
 .container{
    max-width: 1110px;
@@ -151,8 +147,7 @@ width: 100%;
 .secondscreen {
    background: #F9F9F9;
 }
-.container {
-}
+
 .top__title {
    padding-top: 100px;
    text-align: center;
@@ -236,5 +231,51 @@ padding-bottom: 45px;
 
 /* END 3 screen */
 /* 4 screen */
+.fourscreen {
 
+   
+}
+.fourscreen-title {
+padding-top: 120px;
+font-family: 'Khula', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 140%;
+text-align: center;
+color: #333333;
+margin-bottom: 15px;
+
+}
+.title-black {
+font-family: Noto Serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+color: #333333;
+margin-bottom: 60px;
+}
+
+.fourscreen-items {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 30px;
+   margin-bottom: 60px;
+}
+.fourscreen-item {
+   
+}
+.btn-black {
+/* align-items: center; */
+padding: 15px 35px;
+background: #333333;
+border: 1px solid #FFFFFF;
+color:#FFFFFF;
+text-transform: uppercase;
+box-sizing: border-box;
+margin: auto;
+display: block;
+}
 /* END 4 screen */
