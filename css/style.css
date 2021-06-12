@@ -311,9 +311,11 @@ margin-bottom: 60px;
 .mailing {
    background: url(../img/galery/screen3.png) no-repeat center;
    color: white;
-   
-}
+   /* display: flex;
+   justify-content: center;
+   flex-direction: */
 
+}
 .mailing-title {
    padding-top: 100px;
    padding-bottom: 15px;
@@ -336,6 +338,11 @@ margin-bottom: 60px;
    padding-bottom: 60px;
 }
 
+.subscribe__list {
+   display: flex;
+   flex-wrap: wrap;
+}
+
 .list-item{
    display: flex;
    font-family: 'Khula', sans-serif;
@@ -351,11 +358,14 @@ padding-right: 20px;
 }
 
 .subscribe__form {
+   border: 1px solid white;
+   margin: 15px ;
    background-color: #fff;
    max-width: 420px;
    padding: 20px;
 }
 .subscribe__form-input {
+
    background-color: #fff;
    padding: 15px;
    border: 1px solid grey;
@@ -368,3 +378,8 @@ padding-right: 20px;
 }
 
 /* END mailing */
+
+/* footer  */
+
+
+/* end footer */
