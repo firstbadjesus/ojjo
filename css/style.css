@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   outline: 1px solid red;   
+   /* outline: 1px solid red;     */
 }
 
 body {
@@ -311,10 +311,7 @@ margin-bottom: 60px;
 .mailing {
    background: url(../img/galery/screen3.png) no-repeat center;
    color: white;
-   /* display: flex;
-   justify-content: center;
-   flex-direction: */
-
+   padding-bottom: 120px;
 }
 .mailing-title {
    padding-top: 100px;
@@ -341,6 +338,8 @@ margin-bottom: 60px;
 .subscribe__list {
    display: flex;
    flex-wrap: wrap;
+   justify-content: space-around;
+
 }
 
 .list-item{
@@ -353,22 +352,36 @@ margin-bottom: 60px;
    margin-bottom: 15px;
 }
 
+.list-item:first-child {
+   padding-top: 10px;
+}
+
 .list-item img{
 padding-right: 20px;
 }
 
 .subscribe__form {
+border: 1px solid white;
+margin: 0;
+box-sizing: border-box;
+height: max-content;
+margin: 0px;
+}
+.subscribe__form-wrapper {
+   display: flex;
+   align-items: center;
    border: 1px solid white;
    margin: 15px ;
    background-color: #fff;
    max-width: 420px;
-   padding: 20px;
+   padding: 10px;
+
 }
 .subscribe__form-input {
-
    background-color: #fff;
    padding: 15px;
    border: 1px solid grey;
+   margin: 0;
 }
 .subscribe__form-btn {
    padding: 15px 35px;
@@ -380,6 +393,53 @@ padding-right: 20px;
 /* END mailing */
 
 /* footer  */
+.footer {
 
+}
+
+.footer__item {
+   display: flex;
+   padding-bottom: 15px;
+   
+}
+.footer__nav {
+   display: flex;
+   justify-content: space-between;
+}
+.footer__menu {
+   width: 25%;
+}
+
+.footer__menu-title {
+font-family: 'Khula', sans-serif;
+padding-top: 80px;
+font-family: ;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 140%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #333333;
+padding-bottom: 50px;
+}
+.footer__menu-link-social {
+   /* display: flex;
+   justify-content: space-between;  */
+}
+.footer__menu-link:last-child {
+padding-left: 20px;
+}
+.footer__menu-link {
+   color: black;
+}
+.footer__item-text {
+}
+
+.footer__items-social {
+   padding-top: 23px;
+   display: flex;
+   justify-content: space-between;
+}
 
 /* end footer */
